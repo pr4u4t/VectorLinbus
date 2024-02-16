@@ -25,32 +25,31 @@ typedef struct {
     CListBox        *pListRX;
 } TStruct;
 
-class CLINFunctions  
-{
+class CLINFunctions  {
 public:
 	CLINFunctions();
 	virtual ~CLINFunctions();
 
-  XLstatus LINGetDevice();
-  XLstatus LINInit(int linID);
-  XLstatus LINSendMasterReq(BYTE data, int linID);
-  XLstatus LINClose();
+    XLstatus LINGetDevice();
+    XLstatus LINInit(int linID);
+    XLstatus LINSendMasterReq(BYTE data, int linID);
+    XLstatus LINClose();
  
-  CListBox        *m_pRXBox;
-  CListBox        *m_pStatusBox;
+    CListBox        *m_pRXBox;
+    CListBox        *m_pStatusBox;
 
 private:
-  XLstatus         linGetChannelMask();
-  XLstatus         linInitMaster(int linID);
-  XLstatus         linInitSlave(int linID);
-  XLstatus         linCreateRxThread(); 
-  XLstatus         linSetSlave(int linID, byte data);
+    XLstatus         linGetChannelMask();
+    XLstatus         linInitMaster(int linID);
+    XLstatus         linInitSlave(int linID);
+    XLstatus         linCreateRxThread(); 
+    XLstatus         linSetSlave(int linID, byte data);
 
-  XLaccess         m_xlChannelMask[MAXPORT];
-  XLportHandle     m_xlPortHandle;
+    XLaccess         m_xlChannelMask[MAXPORT];
+    XLportHandle     m_xlPortHandle;
 
-  XLhandle         m_hMsgEvent;
-  HANDLE           m_hThread;
+    XLhandle         m_hMsgEvent;
+    HANDLE           m_hThread;
 };
 
 DWORD     WINAPI RxThread( PVOID par );
