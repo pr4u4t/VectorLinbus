@@ -11,13 +11,6 @@
 
 #include "include/vxlapi.h"
 
-#define MAXPORT 8
-#define RECEIVE_EVENT_SIZE       1     // DO NOT EDIT! Currently 1 is supported only
-#define MASTER                   1     //!< channel is a master
-#define SLAVE                    2     //!< channel is a slave
-#define DEFAULT_LIN_DLC          8     //!< default DLC for master/slave
-#define DEFAULT_LIN_BAUDRATE 16500     //!< default LIN baudrate
-
 typedef struct {
     XLportHandle    xlPortHandle; 
     HANDLE          hMsgEvent;
@@ -27,6 +20,13 @@ typedef struct {
 
 class CLINFunctions  {
 public:
+    static constexpr const int MAXPORT = 8;
+    static constexpr const int RECEIVE_EVENT_SIZE = 1;     // DO NOT EDIT! Currently 1 is supported only
+    static constexpr const int MASTER = 1;     //!< channel is a master
+    static constexpr const int SLAVE = 2;     //!< channel is a slave
+    static constexpr const int DEFAULT_LIN_DLC = 8;     //!< default DLC for master/slave
+    static constexpr const int DEFAULT_LIN_BAUDRATE = 16500;     //!< default LIN baudrate
+
 	CLINFunctions();
 	virtual ~CLINFunctions();
 

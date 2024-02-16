@@ -47,6 +47,7 @@
     <OutDir>$(SolutionDir)bin</OutDir>
     <IntDir>$(SolutionDir)obj</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)bin</OutDir>

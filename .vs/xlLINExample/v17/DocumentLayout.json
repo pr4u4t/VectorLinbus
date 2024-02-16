@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pawel\\Documents\\VectorLinbus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B52C9E63-107F-46CB-9A7C-C774C2EB2301}|xlLINExample.vcxproj|C:\\Users\\pawel\\Documents\\VectorLinbus\\xlLINFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B52C9E63-107F-46CB-9A7C-C774C2EB2301}|xlLINExample.vcxproj|solutionrelative:xlLINFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B52C9E63-107F-46CB-9A7C-C774C2EB2301}|xlLINExample.vcxproj|C:\\Users\\pawel\\Documents\\VectorLinbus\\xlLINFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B52C9E63-107F-46CB-9A7C-C774C2EB2301}|xlLINExample.vcxproj|solutionrelative:xlLINFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "xlLINFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\VectorLinbus\\xlLINFunctions.cpp",
+              "RelativeDocumentMoniker": "xlLINFunctions.cpp",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\VectorLinbus\\xlLINFunctions.cpp",
+              "RelativeToolTip": "xlLINFunctions.cpp",
+              "ViewState": "AQIAAEMCAAAAAAAAAAAUwCgCAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-16T12:34:57.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "xlLINFunctions.h",
               "DocumentMoniker": "C:\\Users\\pawel\\Documents\\VectorLinbus\\xlLINFunctions.h",
               "RelativeDocumentMoniker": "xlLINFunctions.h",
               "ToolTip": "C:\\Users\\pawel\\Documents\\VectorLinbus\\xlLINFunctions.h",
               "RelativeToolTip": "xlLINFunctions.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAVAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-02-16T01:12:02.771Z",
               "EditorCaption": ""

@@ -526,7 +526,7 @@ DWORD WINAPI RxThread(LPVOID par)
   XLstatus        xlStatus;
   
   //char            tmp[100];
-  unsigned int    msgsrx = RECEIVE_EVENT_SIZE;
+  unsigned int    msgsrx = CLINFunctions::RECEIVE_EVENT_SIZE;
   XLevent         xlEvent; 
   char            tmp[100];
   CString         str;
@@ -550,7 +550,7 @@ DWORD WINAPI RxThread(LPVOID par)
     while (!xlStatus) {
       
       
-      msgsrx = RECEIVE_EVENT_SIZE;
+      msgsrx = CLINFunctions::RECEIVE_EVENT_SIZE;
       xlStatus = xlReceive(pTh->xlPortHandle, &msgsrx, &xlEvent);
       
       if ( xlStatus!=XL_ERR_QUEUE_IS_EMPTY ) {
